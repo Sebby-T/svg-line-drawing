@@ -1,0 +1,178 @@
+h1 {
+  font-family: "Unica One", sans-serif;
+  color: #fff;
+
+  position: absolute;
+  left: 64px;
+  top: 162px;
+
+  animation: fade-in 1s linear forwards;
+}
+
+#narwhal-eye {
+  animation: fade-in 1s linear forwards;
+}
+
+@keyframes fade-in {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}
+
+#narwhal-body {
+  animation: body-animate 1s linear forwards;
+
+  stroke-dasharray: 1982px;
+  stroke-dashoffset: 1982px;
+}
+
+@keyframes body-animate {
+
+  0% {
+      stroke-dashoffset: 1982px;
+  }
+
+  100% {
+      stroke-dashoffset: 0px;
+  }
+
+}
+
+#rainbow-violet {
+  animation: body-animate 1s linear forwards;
+
+  stroke-dasharray: px;
+  stroke-dashoffset: px;
+}
+
+@keyframes -animate {
+
+  0% {
+      stroke-dashoffset: px;
+  }
+
+  100% {
+      stroke-dashoffset: 0px;
+  }
+
+}
+
+#rainbow-indigo {
+  animation: body-animate 1s linear forwards;
+
+  stroke-dasharray: px;
+  stroke-dashoffset: px;
+}
+
+@keyframes -animate {
+
+  0% {
+      stroke-dashoffset: px;
+  }
+
+  100% {
+      stroke-dashoffset: 0px;
+  }
+
+}
+
+#rainbow- {
+  animation: body-animate 1s linear forwards;
+
+  stroke-dasharray: px;
+  stroke-dashoffset: px;
+}
+
+@keyframes -animate {
+
+  0% {
+      stroke-dashoffset: px;
+  }
+
+  100% {
+      stroke-dashoffset: 0px;
+  }
+
+}
+
+#rainbow- {
+  animation: body-animate 1s linear forwards;
+
+  stroke-dasharray: px;
+  stroke-dashoffset: px;
+}
+
+@keyframes -animate {
+
+  0% {
+      stroke-dashoffset: px;
+  }
+
+  100% {
+      stroke-dashoffset: 0px;
+  }
+
+}
+
+#rainbow- {
+  animation: body-animate 1s linear forwards;
+
+  stroke-dasharray: px;
+  stroke-dashoffset: px;
+}
+
+@keyframes -animate {
+
+  0% {
+      stroke-dashoffset: px;
+  }
+
+  100% {
+      stroke-dashoffset: 0px;
+  }
+
+}
+
+#rainbow- {
+  animation: body-animate 1s linear forwards;
+
+  stroke-dasharray: px;
+  stroke-dashoffset: px;
+}
+
+@keyframes -animate {
+
+  0% {
+      stroke-dashoffset: px;
+  }
+
+  100% {
+      stroke-dashoffset: 0px;
+  }
+
+}
+
+#rainbow- {
+  animation: body-animate 1s linear forwards;
+
+  stroke-dasharray: px;
+  stroke-dashoffset: px;
+}
+
+@keyframes -animate {
+
+  0% {
+      stroke-dashoffset: px;
+  }
+
+  100% {
+      stroke-dashoffset: 0px;
+  }
+
+}
