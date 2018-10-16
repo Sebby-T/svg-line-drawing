@@ -6,11 +6,15 @@ h1 {
   left: 64px;
   top: 162px;
 
+  opacity: 0;
+
   animation: fade-in 1s linear forwards;
 }
 
 #narwhal-eye {
-  animation: fade-in 1s linear forwards;
+  opacity: 0;
+
+  animation: fade-in 1s .5s linear forwards;
 }
 
 @keyframes fade-in {
@@ -35,144 +39,144 @@ h1 {
 @keyframes body-animate {
 
   0% {
-      stroke-dashoffset: 1982px;
+    stroke-dashoffset: 1982px;
   }
 
   100% {
-      stroke-dashoffset: 0px;
+    stroke-dashoffset: 0;
   }
 
 }
 
 #rainbow-violet {
-  animation: body-animate 1s linear forwards;
+  animation: violet-animate 1s linear forwards;
 
-  stroke-dasharray: px;
-  stroke-dashoffset: px;
+  stroke-dasharray: 1918px;
+  stroke-dashoffset: 1918px;
 }
 
-@keyframes -animate {
+@keyframes violet-animate {
 
   0% {
-      stroke-dashoffset: px;
+    stroke-dashoffset: 1918px;
   }
 
   100% {
-      stroke-dashoffset: 0px;
+    stroke-dashoffset: 0;
   }
 
 }
 
 #rainbow-indigo {
-  animation: body-animate 1s linear forwards;
+  animation: indigo-animate 1s linear forwards;
 
-  stroke-dasharray: px;
-  stroke-dashoffset: px;
+  stroke-dasharray: 1812px;
+  stroke-dashoffset: 1812px;
 }
 
-@keyframes -animate {
+@keyframes indigo-animate {
 
   0% {
-      stroke-dashoffset: px;
+    stroke-dashoffset: 1812px;
   }
 
   100% {
-      stroke-dashoffset: 0px;
+    stroke-dashoffset: 0;
   }
 
 }
 
-#rainbow- {
-  animation: body-animate 1s linear forwards;
+#rainbow-blue {
+  animation: blue-animate 1s linear forwards;
 
-  stroke-dasharray: px;
-  stroke-dashoffset: px;
+  stroke-dasharray: 1705px;
+  stroke-dashoffset: 1705px;
 }
 
-@keyframes -animate {
+@keyframes blue-animate {
 
   0% {
-      stroke-dashoffset: px;
+    stroke-dashoffset: 1705px;
   }
 
   100% {
-      stroke-dashoffset: 0px;
+    stroke-dashoffset: 0;
   }
 
 }
 
-#rainbow- {
-  animation: body-animate 1s linear forwards;
+#rainbow-green {
+  animation: green-animate 1s linear forwards;
 
-  stroke-dasharray: px;
-  stroke-dashoffset: px;
+  stroke-dasharray: 1596px;
+  stroke-dashoffset: 1596px;
 }
 
-@keyframes -animate {
+@keyframes green-animate {
 
   0% {
-      stroke-dashoffset: px;
+    stroke-dashoffset: 1596px;
   }
 
   100% {
-      stroke-dashoffset: 0px;
+    stroke-dashoffset: 0;
   }
 
 }
 
-#rainbow- {
-  animation: body-animate 1s linear forwards;
+#rainbow-yellow {
+  animation: yellow-animate 1s linear forwards;
 
-  stroke-dasharray: px;
-  stroke-dashoffset: px;
+  stroke-dasharray: 1483px;
+  stroke-dashoffset: 1483px;
 }
 
-@keyframes -animate {
+@keyframes yellow-animate {
 
   0% {
-      stroke-dashoffset: px;
+    stroke-dashoffset: 1483px;
   }
 
   100% {
-      stroke-dashoffset: 0px;
+    stroke-dashoffset: 0;
   }
 
 }
 
-#rainbow- {
-  animation: body-animate 1s linear forwards;
+#rainbow-orange {
+  animation: orange-animate 1s linear forwards;
 
-  stroke-dasharray: px;
-  stroke-dashoffset: px;
+  stroke-dasharray: 1366px;
+  stroke-dashoffset: 1366px;
 }
 
-@keyframes -animate {
+@keyframes orange-animate {
 
   0% {
-      stroke-dashoffset: px;
+    stroke-dashoffset: 1366px;
   }
 
   100% {
-      stroke-dashoffset: 0px;
+    stroke-dashoffset: 0;
   }
 
 }
 
-#rainbow- {
-  animation: body-animate 1s linear forwards;
+#rainbow-red {
+  animation: red-animate 1s linear forwards;
 
-  stroke-dasharray: px;
-  stroke-dashoffset: px;
+  stroke-dasharray: 1243px;
+  stroke-dashoffset: 1243px;
 }
 
-@keyframes -animate {
+@keyframes red-animate {
 
   0% {
-      stroke-dashoffset: px;
+    stroke-dashoffset: 1243px;
   }
 
   100% {
-      stroke-dashoffset: 0px;
+    stroke-dashoffset: 0;
   }
 
 }
